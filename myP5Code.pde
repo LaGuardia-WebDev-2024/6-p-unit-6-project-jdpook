@@ -11,7 +11,24 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //The background
+  fill(#90EE90)
+   rect(0,200,1000,1000)
+  fill(#90D5FF)
+   rect(0,0,1000,200)
+
+   //Peppa Pig
+   fill(#F4C2C2)
+   ellipse(200,150,220,220)
+   quad
+   //limbs
+   line
+   line
+   line
+   line
+   //tail
+   curve
+   
 
   
 
