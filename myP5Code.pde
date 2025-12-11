@@ -17,13 +17,32 @@ void draw(){
   fill(#90D5FF)
    rect(0,0,1000,200)
 
-   //Peppa Pig
+
+   //limbs
+    strokeWeight(10);
+    //stroke color
+   line(160,380,160,400)
+   line(250,380,250,400)
+   //make arc for arms
+    //body
+  fill(255,128,128)
+   strokeWeight(1);
+   quad(130,230,270,230,310,380,90,380)
+
+   //Peppa Pig head
+    strokeWeight(1);
    fill(#F4C2C2)
    ellipse(200,150,220,220)
-   quad
-   //limbs
-   line
-   line
+   ellipse(170,90,30,30)
+   //cheek
+   ellipse(260,170,60,60)
+   //mouth
+   ellipse(230,110,30,30)
+    strokeWeight(10);
+   point(170,90)
+    point(230,110)
+   strokeWeight(1);
+   ellipse(170,200,100,30)
    line
    line
    //tail
