@@ -24,6 +24,12 @@ void draw(){
    line(160,380,160,400)
    line(250,380,250,400)
    //make arc for arms
+   strokeWeight(5);
+   fill(0,0,0,0)
+   stroke(200,0,0)
+    arc(200,350,300,220,radians(180),radians(360))
+    arc(50,340,30,30,radians(180),radians(360))
+    arc(350,340,30,30,radians(180),radians(360))
     //body
   fill(255,128,128)
    strokeWeight(1);
@@ -33,20 +39,35 @@ void draw(){
     strokeWeight(1);
    fill(#F4C2C2)
    ellipse(200,150,220,220)
+   //snout
+   quad(100,30,200,40,160,150,80,90)
+   ellipse(100,70,60,80)
+    strokeWeight(10);
+   point(90,70)
+    point(110,70)
+  strokeWeight(1)
+  fill()
    ellipse(170,90,30,30)
-   //cheek
-   ellipse(260,170,60,60)
-   //mouth
    ellipse(230,110,30,30)
+   //ears
+   fill(#F4C2C2)
+    ellipse(240,40,30,60)
+    ellipse(280,60,30,60)
+   //cheek
+   fill(255,128,128)
+   ellipse(260,170,60,60)
     strokeWeight(10);
    point(170,90)
     point(230,110)
+    //mouth
    strokeWeight(1);
-   ellipse(170,200,100,30)
+   fill(0,0,0,0)
+   arc(170,200,100,30,radians(0),radians(180))
    line
    line
    //tail
    curve
+   //background?
    
 
   
