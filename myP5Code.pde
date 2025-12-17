@@ -30,6 +30,9 @@ void draw(){
     arc(200,350,300,220,radians(180),radians(360))
     arc(50,340,30,30,radians(180),radians(360))
     arc(350,340,30,30,radians(180),radians(360))
+     arc(300,340,30,30,radians(0),radians(180))
+     arc(330,340,30,30,radians(0),radians(180))
+    
     //body
   fill(255,128,128)
    strokeWeight(1);

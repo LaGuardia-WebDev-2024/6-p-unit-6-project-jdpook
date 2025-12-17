@@ -6,7 +6,7 @@ body {
     #E7541E 35%, /* Blue starts at 25% */
     #509844 50%, /* Blue ends at 50% */
     #D03499 60%, /* Green starts at 50% */
-    #1E7BC9 75%, /* Green ends at 75% */
+    #6190b6 75%, /* Green ends at 75% */
     #B121B6 85%, /* Yellow starts at 75% */
     #DD133B 100% /* Yellow ends at 100% */
   );
@@ -19,13 +19,13 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(101, 211, 165);
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(206, 241, 140);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -37,7 +37,7 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(106, 209, 112);
 }
 
 h2{
